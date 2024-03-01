@@ -2,7 +2,7 @@
 #include <Windows.h>
 
 void menu() {
-    std::cout << "Press the right control to enable and the right shift to disable";
+    std::cout << "Press the left control to enable and the right shift to disable";
 }
 
 void clicker() {

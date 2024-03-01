@@ -3,14 +3,14 @@
 //x = 1400, y = 765
 
 void menu() {
-    std::cout << "Press the right control to enable and the right shift to disable";
+    std::cout << "Press the left control to enable and the right shift to disable";
 }
 
 void clicker() {
     bool click = false;
 
     while (true) {
-        if (GetAsyncKeyState(VK_RCONTROL)) {
+        if (GetAsyncKeyState(VK_LCONTROL)) {
             click = true;
         }
         else if (GetAsyncKeyState(VK_RSHIFT)) {
